@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net4;net46;netstandard2.0</TargetFrameworks>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Sean</Authors>
+    <Company>Sean Studio</Company>
+    <Copyright>Copyright © Sean Studio 2020</Copyright>
+    <Description>Various encryption algorithms such as: Base64, AES, DES, RSA, MD5, SHA1, SHA256</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sean.Utility" Version="2.0.3-beta2020072201" />
+  </ItemGroup>
+
+</Project>
