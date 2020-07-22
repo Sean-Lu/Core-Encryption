@@ -1,6 +1,5 @@
-﻿
+﻿#if !NET40
 using Sean.Core.Encryption.Enums;
-#if !NET40
 using System;
 using System.IO;
 using System.Security.Cryptography;
