@@ -8,10 +8,11 @@
     <Company>Sean Studio</Company>
     <Copyright>Copyright © Sean Studio 2020</Copyright>
     <Description>Various encryption algorithms such as: Base64, AES, DES, RSA, MD5, SHA1, SHA256</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Sean.Utility" Version="2.0.3-beta2020072201" />
+    <PackageReference Include="Sean.Utility" Version="2.0.4" />
   </ItemGroup>
 
 </Project>
