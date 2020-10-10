@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sean.Core.Encryption", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{29AA83C2-2D67-4920-94BF-C2C168CF9553}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.NetCore", "test\Demo.NetCore\Demo.NetCore.csproj", "{B098F333-22FB-49DF-AFB0-6645DA6545B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{6F195AA2-719A-41D7-9F17-6F9A5C328463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F195AA2-719A-41D7-9F17-6F9A5C328463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F195AA2-719A-41D7-9F17-6F9A5C328463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B098F333-22FB-49DF-AFB0-6645DA6545B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B098F333-22FB-49DF-AFB0-6645DA6545B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B098F333-22FB-49DF-AFB0-6645DA6545B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B098F333-22FB-49DF-AFB0-6645DA6545B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B098F333-22FB-49DF-AFB0-6645DA6545B3} = {29AA83C2-2D67-4920-94BF-C2C168CF9553}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ECE14C2-6A40-4B1C-B347-C05FCC03E5A8}
