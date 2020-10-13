@@ -5,8 +5,7 @@
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Sean</Authors>
-    <Company>Sean Studio</Company>
-    <Copyright>Copyright © Sean Studio 2020</Copyright>
+    <Copyright>Copyright © 2016-2020 Sean</Copyright>
     <Description>Various encryption algorithms such as: Base64, AES, DES, RSA, MD5, SHA1, SHA256</Description>
     <Version>1.0.2</Version>
     <PackageProjectUrl>https://github.com/Sean-Lu/Core-Encryption.git</PackageProjectUrl>
